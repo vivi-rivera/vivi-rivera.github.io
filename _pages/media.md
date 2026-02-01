@@ -25,8 +25,8 @@ author_profile: true
 
 ### Baruch College
 
-- **“ISLA Spring 2024 Course Fair: POL 3309 – Race and Ethnicity in American Politics”** — *ISLA Baruch College* (2024).  
+- **“ISLA Spring 2024 Course Fair: POL 3309 – Race and Ethnicity in American Politics”** — *ISLA Baruch College* (2024).
   [Watch video](https://youtu.be/9gtPk7V_XP4?si=kAuzFB9rDD1eyCNX)
 
-- **“POL and BLS Present: Roundtable on Identity Politics and Campaign 2020”** — *Baruch College* (2020).  
+- **“POL and BLS Present: Roundtable on Identity Politics and Campaign 2020”** — *Baruch College* (2020)
   [Watch video](https://youtu.be/02o_HL1TNJw?si=XAsz1YljFfmjpkUI)
