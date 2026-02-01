@@ -33,7 +33,7 @@ This paper examines the rational choice reasoning that is used to explain the co
 
 ## Under Review
 
-**"`¿Tu lucha es mi lucha?' Latinos' Attitudes toward Black Lives Matter."** *Revise & resubmit*.
+"`¿Tu lucha es mi lucha?' Latinos' Attitudes toward Black Lives Matter." *Revise & resubmit*.
 
 ## In Progress
 
