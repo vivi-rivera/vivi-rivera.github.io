@@ -1,5 +1,5 @@
 ---
-title: "En Español"
+title: ""
 permalink: /es/
 author_profile: true
 ---
