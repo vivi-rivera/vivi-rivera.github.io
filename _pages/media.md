@@ -28,3 +28,11 @@ author_profile: true
 - **“Art Speaks Justice: The Reconstruction of Race Relations Post Election 2020”** — *Baruch College* (2020). [Watch video](https://youtu.be/qNYz0uYf7a0?si=zGOgOjLoht7zKmCz)
 
 - **“POL and BLS Present: Roundtable on Identity Politics and Campaign 2020”** — *Baruch College* (2020). [Watch video](https://youtu.be/02o_HL1TNJw?si=XAsz1YljFfmjpkUI)
+
+## News
+
+- **“Why dry weather this Election Day may boost Biden”** — *The Washington Post* (Jeremy Deaton, November 1, 2020). [Read article](https://www.washingtonpost.com/weather/2020/11/01/election-weather-2020/)
+
+- **“Meet Viviana Rivera‐Burgos (2025 Advancing Research Grants for Early Career Scholars Recipient)”** — *PoliticalScienceNow* (2025). [Read article](https://politicalsciencenow.com/meet-viviana-rivera-burgos-2025-advancing-research-grants-for-early-career-scholars-recipient/)
+
+- **“Although American Citizens, Puerto Ricans Suffer From Additional Prejudice”** — *PoliticalScienceNow* (Angie Torres-Beltrán, 2024). [Read article](https://politicalsciencenow.com/although-american-citizens-puerto-ricans-suffer-from-additional-prejudice/)
