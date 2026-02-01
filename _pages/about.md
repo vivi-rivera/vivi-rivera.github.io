@@ -1,7 +1,10 @@
 ---
 permalink: /
-title: "About"
+title: ""
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 I am an assistant professor in the Political Science Department at Baruch College in the City University of New York. I received my Ph.D. from Columbia University and my B.A. from the University of Puerto Rico-Mayagüez. 
