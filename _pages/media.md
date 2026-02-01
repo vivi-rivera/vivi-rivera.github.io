@@ -9,8 +9,11 @@ author_profile: true
 
 ### BronxNet
 
-- **“Post-Elecciones Presidenciales y Tratamientos para la Enfermedad de Alzheimer”** — *Diálogo Abierto*, BronxNet TV (2023).  
+- **“Post-Elecciones Presidenciales y Tratamientos para la Enfermedad de Alzheimer”** — *Diálogo Abierto*, BronxNet TV (2023).
   [Watch video](https://youtu.be/SvordqTw3sA?si=TIPqQS4bE2J4Xy7P)
+
+- **“Inauguration 2021”** — *Today's Verdict*, BronxNet TV (2021).
+  [Watch video](https://youtu.be/FbiS05vMOsM?si=4F0NJaU_zOBNw1p6)
 
 - **“Análisis de la Primera Semana de la Administración Biden | Plan Migratorio”** — *Diálogo Abierto*, BronxNet TV (2021).
   [Watch video](https://youtu.be/FbiS05vMOsM?si=4F0NJaU_zOBNw1p6)
@@ -27,6 +30,9 @@ author_profile: true
 
 - **“ISLA Spring 2024 Course Fair: POL 3309 – Race and Ethnicity in American Politics”** — *ISLA Baruch College* (2024).
   [Watch video](https://youtu.be/9gtPk7V_XP4?si=kAuzFB9rDD1eyCNX)
+
+- **“Art Speaks Justice: The Reconstruction of Race Relations Post Election 2020”** — *Baruch College* (2020)
+  [Watch video](https://youtu.be/qNYz0uYf7a0?si=zGOgOjLoht7zKmCz)
 
 - **“POL and BLS Present: Roundtable on Identity Politics and Campaign 2020”** — *Baruch College* (2020)
   [Watch video](https://youtu.be/02o_HL1TNJw?si=XAsz1YljFfmjpkUI)
