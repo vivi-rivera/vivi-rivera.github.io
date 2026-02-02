@@ -1,10 +1,8 @@
 ---
----
 layout: archive
 title: 
 permalink: /es/
 author_profile: true
----
 ---
 
 Soy catedrática auxiliar en ciencia política en Baruch College del City University of New York. Recibí mi Ph.D. de Columbia University y B.A. de la Universidad de Puerto Rico-Mayagüez. 
