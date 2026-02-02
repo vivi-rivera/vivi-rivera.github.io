@@ -23,3 +23,7 @@ author_profile: true
 
 - **Latino Politics**
   This course examines the history and contemporary role of Latinos in American politics, including the emergence of “Latino” as a pan-ethnic identity and demographic profiles of the group; the “Americanization” and “racialization” of Latinos; and the relationship between Latinos and non-Latinos as they relate to political institutions, representation, and voting coalitions. The course will also focus on the development of Latino public opinion and partisanship, how these manifest in Latinos’ political participation, and their importance in recent presidential and midterm elections (2008-2018). The course also examines U.S. immigration policy as context to understand current debates that shape the Latino community now and in the future.
+
+## GSAS-Leadership Alliance Summer Research Program, Columbia University
+
+- **Latino Politics**
