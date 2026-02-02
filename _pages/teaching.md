@@ -26,4 +26,4 @@ author_profile: true
 
 ## GSAS-Leadership Alliance Summer Research Program, Columbia University
 
-- **Principles of Quantitative Researchs**
+- **Principles of Quantitative Research**
