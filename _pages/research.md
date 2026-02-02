@@ -48,3 +48,6 @@ This paper examines the rational choice reasoning that is used to explain the co
 [“Survey of the Puerto Rican Electorate”](https://medium.com/9-millones/survey-to-the-puerto-rican-electorate-3b43abbae44e) / [“Encuesta sobre el electorado puertorriqueño”](https://medium.com/9-millones/encuesta-sobre-el-electorado-puertorrique%C3%B1o-c4a93ace21ae) in 9 Millones, 2020. 
 
 ["Poor Weather Doesn't Dissuade Voting in Noncompetitive Elections--Not Even Hurricane Sandy Did in 2012"](http://blogs.lse.ac.uk/usappblog/2017/06/12/poor-weather-doesnt-dissuade-voting-in-noncompetitive-elections-not-even-hurricane-sandy-did-in-2012/) (with Robert Shapiro and M. Narayani Lasala-Blanco) in United States Politics and Policy, London School of Economics, 2017.
+
+## Book Reviews
+[Review of *Immigration and the American Ethos* by Morris Levy and Matthew Wright](https://www.psqonline.org/article.cfm?IDArticle=20249) in *Political Science Quarterly*, Vol. 136, 2021-22.
