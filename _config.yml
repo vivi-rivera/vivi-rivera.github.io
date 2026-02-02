@@ -23,7 +23,7 @@ repository               : "vivi-rivera/vivi-rivera.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Viviana Rivera-Burgos"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor, Political Science, Baruch College-CUNY"
