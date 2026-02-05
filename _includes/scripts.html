@@ -6,10 +6,11 @@
     var nav = document.querySelector('.greedy-nav .visible-links');
     if (!nav) return;
 
-    var storageKey = 'navScrollLeft';
+    // Use a per-site key so Viviana's and Tom's don't conflict
+    var originKey = 'navScrollLeft:' + window.location.origin;
 
-    // Restore previous scroll position if available
-    var saved = sessionStorage.getItem(storageKey);
+    // 1. Restore previous scroll position (if any)
+    var saved = sessionStorage.getItem(originKey);
     if (saved !== null) {
       var value = parseInt(saved, 10);
       if (!isNaN(value)) {
@@ -17,10 +18,14 @@
       }
     }
 
-    // Save scroll position whenever the user scrolls the nav
-    nav.addEventListener('scroll', function () {
-      sessionStorage.setItem(storageKey, nav.scrollLeft);
-    });
+    // 2. On click of any nav link, save current scrollLeft
+    nav.addEventListener('click', function (evt) {
+      var link = evt.target.closest('a');
+      if (link) {
+        // Save current position so the next page can restore it
+        sessionStorage.setItem(originKey, nav.scrollLeft);
+      }
+    }, true);
   });
 </script>
 
