@@ -7,8 +7,8 @@ This repository contains the source code for my personal academic website:
 The site is built using Jekyll and the Academic Pages template (a fork of Minimal Mistakes) and is hosted via GitHub Pages.
 
 ## Structure
-- `_pages/` — main site pages (CV, Research, Teaching, Methods Guides)
-- `files/` — PDFs (papers, syllabi, CV)
+- `_pages/` — main site pages (Contact, CV, Español, Media, Research, Teaching)
+- `files/` — PDFs (CV)
 - `images/` — profile photo and images
 
 ## License
