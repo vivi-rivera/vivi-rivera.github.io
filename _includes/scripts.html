@@ -1,2 +1,8 @@
-<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{%- comment -%}
+  Navigation JS disabled to avoid module import errors.
+  Site uses a pure CSS nav instead of greedy-nav JS.
+{%- endcomment -%}
+
+{# no main.min.js here on purpose #}
+
 {% include analytics.html %}
