@@ -1,16 +1,13 @@
-/* --- Disable greedy-nav hamburger behavior --- */
+/* Disable greedy-nav hamburger and JS-dependent behavior */
 
-/* Hide the hamburger button entirely */
 .greedy-nav__toggle {
   display: none !important;
 }
 
-/* Always show the visible links; allow them to wrap */
 .greedy-nav .visible-links {
   flex-wrap: wrap;
 }
 
-/* Make sure any "hidden" links list is never used */
 .greedy-nav .hidden-links {
   display: none !important;
 }
