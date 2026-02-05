@@ -1,10 +1,3 @@
-{%- comment -%}
-  Navigation JS disabled to avoid module import errors.
-  Site uses a pure CSS nav instead of greedy-nav JS.
-{%- endcomment -%}
-
-{%- comment -%}
-no main.min.js here on purpose
-{%- endcomment -%}
+<script type="module" src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 {% include analytics.html %}
