@@ -8,24 +8,23 @@
   display: none !important;
 }
 
-/* Always allow nav items to wrap when they run out of space */
+/* Always allow nav items to wrap instead of overflowing */
 
 .greedy-nav .visible-links {
   display: flex !important;
-  flex-wrap: wrap !important;         /* <-- key: allow wrapping */
+  flex-wrap: wrap !important;          /* allow wrapping to a second line */
   justify-content: flex-start !important;
 }
 
-/* Basic inline layout for nav items */
+/* Nav items: inline, can shrink, but don't stretch full width */
+
 .greedy-nav .visible-links > li {
-  flex: 0 0 auto !important;          /* don't stretch full width by default */
-  margin-right: 1rem;
+  flex: 0 1 auto !important;          /* <--- key change: no 100% width */
+  margin-right: 0.75rem;
 }
 
-/* On very small screens, stack each item on its own line */
-@media (max-width: 600px) {
-  .greedy-nav .visible-links > li {
-    flex: 0 0 100% !important;        /* one per line */
-    text-align: left !important;
-  }
+/* Optional: tighten vertical spacing slightly */
+.greedy-nav .visible-links > li a {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
 }
