@@ -1,3 +1,27 @@
 <script type="module" src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
+<script>
+  // Preserve horizontal scroll position of the nav across page loads
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('.greedy-nav .visible-links');
+    if (!nav) return;
+
+    var storageKey = 'navScrollLeft';
+
+    // Restore previous scroll position if available
+    var saved = sessionStorage.getItem(storageKey);
+    if (saved !== null) {
+      var value = parseInt(saved, 10);
+      if (!isNaN(value)) {
+        nav.scrollLeft = value;
+      }
+    }
+
+    // Save scroll position whenever the user scrolls the nav
+    nav.addEventListener('scroll', function () {
+      sessionStorage.setItem(storageKey, nav.scrollLeft);
+    });
+  });
+</script>
+
 {% include analytics.html %}
