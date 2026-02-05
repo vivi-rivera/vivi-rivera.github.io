@@ -1,4 +1,4 @@
-/* Turn off the old greedy-nav hamburger and hidden bucket */
+/* Disable the old greedy-nav hamburger + hidden bucket */
 
 .greedy-nav__toggle {
   display: none !important;
@@ -8,23 +8,39 @@
   display: none !important;
 }
 
-/* Always allow nav items to wrap instead of overflowing */
+/* --------  Medium and small screens: nicer wrapping nav  -------- */
 
-.greedy-nav .visible-links {
-  display: flex !important;
-  flex-wrap: wrap !important;          /* allow wrapping to a second line */
-  justify-content: flex-start !important;
+@media (max-width: 900px) {
+  .greedy-nav .visible-links {
+    display: flex;
+    flex-wrap: wrap;              /* allow wrapping to a new line */
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* Site title gets its own full-width line */
+  .greedy-nav .masthead__menu-item--lg {
+    flex: 0 0 100%;
+    margin-right: 0;
+    margin-bottom: 0.2rem;
+  }
+
+  /* Regular nav items share the second line (or more) */
+  .greedy-nav .visible-links > li:not(.masthead__menu-item--lg) {
+    flex: 0 0 auto;
+    margin-right: 0.75rem;
+    margin-top: 0.15rem;
+  }
+
+  /* Push the theme-toggle gear to the far right of the nav row */
+  #theme-toggle {
+    margin-left: auto;
+  }
 }
 
-/* Nav items: inline, can shrink, but don't stretch full width */
-
-.greedy-nav .visible-links > li {
-  flex: 0 1 auto !important;          /* <--- key change: no 100% width */
-  margin-right: 0.75rem;
-}
-
-/* Optional: tighten vertical spacing slightly */
-.greedy-nav .visible-links > li a {
-  padding-top: 0.15rem;
-  padding-bottom: 0.15rem;
+/* Very small phones: hide the gear to keep menu clean */
+@media (max-width: 600px) {
+  #theme-toggle {
+    display: none;
+  }
 }
