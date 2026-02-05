@@ -1,5 +1,4 @@
-/* Disable the old greedy-nav hamburger + hidden bucket */
-
+/* Disable greedy-nav hamburger and hidden bucket */
 .greedy-nav__toggle {
   display: none !important;
 }
@@ -8,39 +7,23 @@
   display: none !important;
 }
 
-/* --------  Medium and small screens: nicer wrapping nav  -------- */
-
+/* --- Mobile-friendly horizontal scrolling nav --- */
 @media (max-width: 900px) {
   .greedy-nav .visible-links {
     display: flex;
-    flex-wrap: wrap;              /* allow wrapping to a new line */
-    align-items: center;
-    justify-content: flex-start;
+    flex-wrap: nowrap;              /* stay on ONE line */
+    overflow-x: auto;               /* allow horizontal scroll */
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
   }
 
-  /* Site title gets its own full-width line */
-  .greedy-nav .masthead__menu-item--lg {
-    flex: 0 0 100%;
-    margin-right: 0;
-    margin-bottom: 0.2rem;
-  }
-
-  /* Regular nav items share the second line (or more) */
-  .greedy-nav .visible-links > li:not(.masthead__menu-item--lg) {
+  .greedy-nav .visible-links > li {
     flex: 0 0 auto;
-    margin-right: 0.75rem;
-    margin-top: 0.15rem;
+    margin-right: 1rem;
   }
 
-  /* Push the theme-toggle gear to the far right of the nav row */
-  #theme-toggle {
-    margin-left: auto;
-  }
-}
-
-/* Very small phones: hide the gear to keep menu clean */
-@media (max-width: 600px) {
-  #theme-toggle {
+  /* Optional: hide scrollbar but keep scrolling */
+  .greedy-nav .visible-links::-webkit-scrollbar {
     display: none;
   }
 }
