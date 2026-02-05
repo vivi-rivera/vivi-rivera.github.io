@@ -1,25 +1,31 @@
-/* Disable greedy-nav hamburger and JS-dependent behavior */
+/* Turn off the old greedy-nav hamburger and hidden bucket */
 
 .greedy-nav__toggle {
   display: none !important;
 }
 
-/* Never use the hidden-links bucket */
 .greedy-nav .hidden-links {
   display: none !important;
 }
 
-/* --- Mobile-friendly nav: show ALL items --- */
-@media (max-width: 768px) {
-  /* Allow wrapping onto multiple lines */
-  .greedy-nav .visible-links {
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
-  }
+/* Always allow nav items to wrap when they run out of space */
 
-  /* Put each nav item on its own line for clarity */
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-wrap: wrap !important;         /* <-- key: allow wrapping */
+  justify-content: flex-start !important;
+}
+
+/* Basic inline layout for nav items */
+.greedy-nav .visible-links > li {
+  flex: 0 0 auto !important;          /* don't stretch full width by default */
+  margin-right: 1rem;
+}
+
+/* On very small screens, stack each item on its own line */
+@media (max-width: 600px) {
   .greedy-nav .visible-links > li {
-    flex: 0 0 100%;
-    text-align: left;
+    flex: 0 0 100% !important;        /* one per line */
+    text-align: left !important;
   }
 }
